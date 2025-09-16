@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    font-family: 'Montserrat';
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    margin: 44px 0px 144px 76px;
+}
+
+.link-header{
+    color: #989D9C;
+    font-size: 24px;
+    font-weight: 600;
+    margin-right: 23px;
+    cursor: pointer;
+}
+
+header button{
+    width: 130px;
+    height: 41px;
+    border: none;
+    border-radius: 50px;
+    background: #665AE1;
+    cursor: pointer;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 600;
+    transition: 0.5s;
+}
+
+header button:hover{
+    transform: translateY(-10px);
+}
+
+.image-logo{
+    margin-left: 125px;
+    width: 568px;
+    height: 500px;
+    display: inline-block;
+}
+
+.contente-main{
+    display: inline-block;
+    margin-top: 138px;
+    margin-left: 86px;
+}
+
+.contente-main h1{
+    color: #515151;
+    font-size: 100px;
+    font-weight: 900;
+}
+
+.contente-main h2{
+    color: #515151;
+    font-size: 58px;
+    font-weight: 500;
+}
+
+.contente-main p{
+    color: #848484;
+    font-size: 24px;
+    font-weight: 400;
+    width: 515px;
+    margin-top: 32px;
+    text-align: justify;
+}
+
+.contente-main button{
+    width: 239px;
+    height: 64px;
+    border-radius: 50px;
+    background: #ADFF00;
+    cursor: pointer;
+    border: none;
+    color: #000;
+    font-size: 28px;
+    font-weight: 700;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    margin-top: 65px;
+    transition: 0.5s;
+}
+
+.contente-main button:hover{
+    transform: translateY(10px);
+}
+
+@media (max-width: 391px){
+    header{
+        display: none;
+    }
+
+    .image-logo{
+        width: 354px;
+        height: 290px;
+        margin-left: 14px;
+        margin-top: 149px;
+    }
+
+    .contente-main{
+        margin: 24px 63px 133px 64px;
+        text-align: center;
+    }
+
+    .contente-main h1{
+        width: 263px;
+        height: 52px;
+        font-size: 50px;
+    }
+
+    .contente-main h2{
+        width: 232px;
+        height: 37px;
+        font-size: 30px;
+        font-weight: 500;
+        margin-left: 20px;
+        
+    }
+
+    .contente-main p{
+        display: none;
+    }
+
+    .contente-main button{
+        width: 239px;
+        height: 64px;
+        font-size: 28px;
+        margin-top: 5   px;
+    }
+}
